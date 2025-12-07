@@ -27,6 +27,8 @@ dependencies = [
     "ffmpeg-python",
     "tqdm",
     "dashscope",
+    "fastapi>=0.100.0",      # ← 添加这行
+    "uvicorn[standard]>=0.20.0"  # ← 添加这行
 ]
 
 [project.urls]
